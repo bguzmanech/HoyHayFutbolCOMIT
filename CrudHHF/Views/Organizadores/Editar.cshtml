@@ -1,0 +1,84 @@
+﻿@model CrudHHF.Models.Organizador
+@{
+    ViewData["Title"] = "Editar torneo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>Editar torneo</h3>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10">
+            <form method="post" asp-action="Editar">
+
+                <input type="hidden" asp-for="ID" />
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class=" form-group">
+                    <label asp-for="NombreTorneo" class="control-label"></label>
+                    <input asp-for="NombreTorneo" class="form-control" />
+                    <span asp-validation-for="NombreTorneo" class="text-danger"></span>
+                </div>
+
+                <div class=" form-group">
+                    <label asp-for="NombreComplejo" class="control-label"></label>
+                    <input asp-for="NombreComplejo" class="form-control" />
+                    <span asp-validation-for="NombreComplejo" class="text-danger"></span>
+                </div>
+
+                <div class=" form-group">
+                    <label asp-for="DireccionComplejo" class="control-label"></label>
+                    <input asp-for="DireccionComplejo" class="form-control" />
+                    <span asp-validation-for="DireccionComplejo" class="text-danger"></span>
+                </div>
+
+                <div class=" form-group">
+                    <label asp-for="LocalidadComplejo" class="control-label"></label>
+                    <input asp-for="LocalidadComplejo" class="form-control" />
+                    <span asp-validation-for="LocalidadComplejo" class="text-danger"></span>
+                </div>
+
+                <div class=" form-group">
+                    <label asp-for="PrecioPorEquipo" class="control-label"></label>
+                    <input asp-for="PrecioPorEquipo" class="form-control" />
+                    <span asp-validation-for="PrecioPorEquipo" class="text-danger"></span>
+                </div>
+
+                <div class=" form-group">
+                    <label asp-for="FechaDelTorneo" class="control-label"></label>
+                    <input asp-for="FechaDelTorneo" class="form-control" />
+                    <span asp-validation-for="FechaDelTorneo" class="text-danger"></span>
+                </div>
+
+                <div class=" form-group">
+                    <label asp-for="ModalidadDePartido" class="control-label"></label>
+                    <input asp-for="ModalidadDePartido" class="form-control" />
+                    <span asp-validation-for="ModalidadDePartido" class="text-danger"></span>
+                </div>
+
+                <div class=" form-group">
+                    <label asp-for="Genero" class="control-label"></label>
+                    <input asp-for="Genero" class="form-control" />
+                    <span asp-validation-for="Genero" class="text-danger"></span>
+                </div>
+
+                <div class=" form-group">
+                    <input type="submit" value="Editar torneo" class="btn btn-primary" />
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</div>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />}
+}
+
