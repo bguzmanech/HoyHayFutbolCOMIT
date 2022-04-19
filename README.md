@@ -1,11 +1,12 @@
 # HoyHayFutbolCOMIT
-Hoy Hay Fútbol es una aplicación Web que está diseñado para crear un espacio de reunión a la comunidad del fútbol amateur. Nuestra misión consiste en promover el deporte y reunir a toda la comunidad del fútbol amateur. La visión es ser el principal medio de comunicación para los apasionados.
+Hoy Hay Fútbol es una aplicación Web que está diseñada para crear un espacio de reunión a la comunidad del fútbol amateur. Nuestra misión consiste en promover el deporte y reunir a toda la comunidad del fútbol amateur.
 Podes organizar tus partidos, crear citaciones y desafios e invitar amigos
-Además:
-Creá partidos, filtralos por tu barrio o ubicación, armar citaciones, responde solicitudes.
-Buscá a tus amigos, agregalos, armá grupos y chateá con quien quieras para ultimar detalles del partido.
-Calificá a los jugadores y al organizador después de cada partido.
-Si tenes un equipo, creá un desafio y elegí un rival.
+Además podés filtralos por tu barrio o ubicación, armar citaciones, buscar a tus amigos y responder solicitudes.
+También se pueden armar grupos y chatear con quien necesites para ultimar detalles del partido.
+Por ultimo esta la opción de calificar a los jugadores y al organizador después de cada partido, estas calificaciones quedaran guardadas en el perfil del usuario.
+
+
+La Aplicación está desarrollada en C# .NET como proyecto final para el curso de Comunidad IT. Es un CRUD en el que está la opción de poder registrarse como Jugador, solo tenes acceso a la sección de "Partidos"(véase foto 1 y 2), como Organizador, en este caso solo tenes acceso a la sección "Torneos"(foto 2, 3, 4 y 5) o como SuperAdmin, este rol te da la posibilidad de gestionar tanto "Partidos" como "Torneos" (foto 6, 7 y 8)
                                 
 
 
