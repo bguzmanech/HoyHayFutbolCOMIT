@@ -1,4 +1,15 @@
-# HoyHayFutbolCOMIT 
+# HoyHayFutbolCOMIT
+Hoy Hay Fútbol es una aplicación Web que está diseñado para crear un espacio de reunión a la comunidad del fútbol amateur. Nuestra misión consiste en promover el deporte y reunir a toda la comunidad del fútbol amateur. La visión es ser el principal medio de comunicación para los apasionados.
+Podes organizar tus partidos, crear citaciones y desafios e invitar amigos
+Además:
+Creá partidos, filtralos por tu barrio o ubicación, armar citaciones, responde solicitudes.
+Buscá a tus amigos, agregalos, armá grupos y chateá con quien quieras para ultimar detalles del partido.
+Calificá a los jugadores y al organizador después de cada partido.
+Si tenes un equipo, creá un desafio y elegí un rival.
+                                
+
+
+
 
 [![Registro-Organizador.png](https://i.postimg.cc/NGb5mv1J/Registro-Organizador.png)](https://postimg.cc/jCwxY93P)
 [![torneo-Creado.png](https://i.postimg.cc/yN7MFthj/torneo-Creado.png)](https://postimg.cc/Bjw73hVP)
